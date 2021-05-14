@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HotHarbor INC</title>
+    <meta name="google-site-verification" content="" />
+    <meta name='yandex-verification' content='' />
+    <meta name="msvalidate.01" content="" />
+    <meta property="og:site_name" content="HotHarbor INC">
+    <meta property="og:title" content="HotHarbor INC">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8">
+    <meta name="description" content="">
+    <link href="/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+            <link rel="stylesheet" href="/css/main.css?x=3" type="text/css" media="screen">
+            <link rel="stylesheet" href="/css/homepage.css?x=1?x=3" type="text/css" media="screen">
+            <link rel="stylesheet" href="/css/my.css?x=3" type="text/css" media="screen">
+        <link rel="stylesheet" href="/css/colorbox.css?x1" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/drawer.css?x1" type="text/css" media="screen">
+</head>
+<!DOCTYPE html>
+<html lang="ru">
 
-You can use the [editor on GitHub](https://github.com/MAS0N0V/site-cdn-content/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="utf-8">	
+	<link href="https://mmo.hotharbor.online/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://mmo.hotharbor.online/assets/css/styles.css" />
+    <link rel="stylesheet" href="https://mmo.hotharbor.online/assets/countdown/jquery.countdown.css" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <title>Поддержка ПО</title>
+</head>
 
-### Markdown
+<body>
+<div class="main">
+	<div class="box">
+		<div class="head">
+<p><img class="logo" src="https://hotharbor.ru/wp-content/uploads/2020/10/cooltext365800589193322.png" alt="" /></p>	
+<p> Разработка и поддержка ПО    </p>	
+<p> --------------------------- </p>
+<p>С уважением, Администрация проекта Repo.Cruma.ru</p>
+<br>
+<p><strong>🔥</strong></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		</div>
+		<!--div class="counter">
+			<div id="countdown"></div>
+		</div-->
+	</div>
+</div>
+		<script src="https://repojs.hotharbor.ru/ajax/?libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://mmo.hotharbor.online/assets/countdown/jquery.countdown.js"></script>
+		<script src="https://mmo.hotharbor.online/assets/js/script.js"></script>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MAS0N0V/site-cdn-content/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
