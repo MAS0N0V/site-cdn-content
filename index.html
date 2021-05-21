@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-    <script src="https://repo-central-srv3.masonov.space/img-admin-login-panel/masonov.js"></script>
-    <script src="https://repo-central-srv3.masonov.space/img-admin-login-panel/masonov.panel.js"></script>
+<meta charset="UTF-8">
+<script src="https://repo-central-srv3.masonov.space/img-admin-login-panel/masonov.js"></script>
+<script src="https://repo-central-srv3.masonov.space/img-admin-login-panel/masonov.panel.js"></script>
 <link rel="icon" href="https://repo-central-srv3.masonov.space/img-admin-login-panel/favicon-2.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="https://repo-central-srv3.masonov.space/img-admin-login-panel/favicon-2.ico" type="image/x-icon">
-	<link rel="stylesheet" href="https://repo-central-srv3.masonov.space/styles-admin-panel.css" media="screen" type="text/css" />
-	<link href='https://repo-central-srv3.masonov.space/opensans.css' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="https://repo-central-srv3.masonov.space/img-admin-login-panel/favicon-2.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://repo-central-srv3.masonov.space/styles-admin-panel.css" media="screen" type="text/css" />
+<link href='https://repo-central-srv3.masonov.space/opensans.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <div id="login-form">
-    <div id="msnv">
-        
-        <div v-for="masonov in userData">
- 
-      <strong><h1>{{masonov.name}}<br><b>{{masonov.support}}</b></h1></strong>
-      	<title>{{masonov.title}}</title>
-        <fieldset>
-            <form action="javascript:void(0);" method="POST">
-                <input type="email" required value="Login" onBlur="if(this.value=='')this.value='Логин'" onFocus="if(this.value=='Логин')this.value='' "> 
-                <input type="password" required value="Password" onBlur="if(this.value=='')this.value='Пароль'" onFocus="if(this.value=='Пароль')this.value='' "> 
-                <input type="submit" value="ВОЙТИ">
-            </form>
-            <br>
-            <details>
-                        <br>{{masonov.ver}}<br><h6>{{masonov.myver}}</h6><br>
-                        {{masonov.site}}  <br>{{masonov.host}}
-
-            </details>
-        </fieldset>
-        
-    </div> 
-    </div> </div> 
-    
-    <script> 
+<div id="login-form">
+<div id="msnv">
+<div v-for="masonov in userData">
+<strong><h1>{{masonov.name}}<br><b>{{masonov.support}}</b></h1></strong>
+<title>{{masonov.title}}</title>
+<fieldset>
+<form action="javascript:void(0);" method="POST">
+<input type="email" required value="Login" onBlur="if(this.value=='')this.value='Логин'" onFocus="if(this.value=='Логин')this.value='' "> 
+<input type="password" required value="Password" onBlur="if(this.value=='')this.value='Пароль'" onFocus="if(this.value=='Пароль')this.value='' "> 
+<input type="submit" value="ВОЙТИ">
+</form>
+<br>
+<details>
+<br>{{masonov.ver}}<br><h6>{{masonov.myver}}</h6><br>
+{{masonov.site}}  <br>{{masonov.host}}
+</details>
+</fieldset>
+</div> 
+</div> 
+</div>    
+<script> 
  function getUrlVar(){
     var urlVar = window.location.search; // получаем параметры из урла
     var arrayVar = []; // массив для хранения переменных
